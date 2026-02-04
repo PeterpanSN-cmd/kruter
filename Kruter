@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>เว็บไซต์การเรียนรู้ออนไลน์</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ===== Header ===== -->
+    <header>
+        <h1>Learning Tech with KRU TER</h1>
+        <nav>
+            <a href="#">หน้าแรก</a>
+            <a href="#">เกี่ยวกับครู</a>
+            <a href="#">รายวิชา</a>
+            <a href="#">ผลงาน</a>
+            <a href="#">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero">
+    <div class="hero-content">
+
+        <img src="images/profile.jpg" alt="ครูเตอร์" class="profile-img">
+
+
+
+        <h2>แหล่งเรียนรู้ออนไลน์ด้านอิเล็กทรอนิกส์และเทคโนโลยี</h2>
+        <p>
+            เรียนอิเล็กทรอนิกส์ | Arduino | IoT | การเขียนโปรแกรม  
+            สำหรับนักเรียนระดับ ปวช.
+        </p>
+
+        <div class="hero-btn">
+            <a href="#">📘 เริ่มเรียนออนไลน์</a>
+            <a href="#">📂 ดูผลงานครู</a>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- ===== Highlight Section ===== -->
+    <section>
+        <h2>จุดเด่นของเว็บไซต์</h2>
+
+        <ul>
+            <li>✅ เรียนซ้ำได้ทุกที่ ทุกเวลา</li>
+            <li>✅ มีใบงาน ใบความรู้ และตัวอย่างโค้ด</li>
+            <li>✅ เน้นทั้งทฤษฎีและปฏิบัติจริง</li>
+        </ul>
+    </section>
+
+    <!-- ===== Courses Section ===== -->
+    <section>
+        <h2>รายวิชาแนะนำ</h2>
+
+        <article>
+            <h3>พื้นฐานอิเล็กทรอนิกส์</h3>
+            <p>เหมาะสำหรับ ปวช.1</p>
+            <a href="#">เข้าสู่บทเรียน</a>
+        </article>
+
+        <article>
+            <h3>Arduino และ IoT</h3>
+            <p>เรียนรู้การควบคุมอุปกรณ์อัจฉริยะ</p>
+            <a href="#">เข้าสู่บทเรียน</a>
+        </article>
+    </section>
+
+    <!-- ===== Portfolio Section ===== -->
+    <section>
+        <h2>ผลงานเด่น</h2>
+
+        <article>
+            <h3>กล่องลืมยาอัจฉริยะ</h3>
+            <p>ระบบแจ้งเตือนด้วยเสียง ไฟ และแอป</p>
+        </article>
+
+        <article>
+            <h3>ระบบแจ้งเตือนผ่าน Telegram</h3>
+            <p>โปรเจกต์ IoT สำหรับงานจริง</p>
+        </article>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>© 2026 เว็บไซต์การเรียนรู้ออนไลน์| สร้างเพื่อการศึกษา ครูเตอร์ : นายศรัณย์ นครไพร | วิทยาลัยเทคนิคเลย </p> 
+    </footer>
+
+</body>
+</html>
+
+/* ===== Reset เบื้องต้น ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== พื้นฐานทั้งเว็บ ===== */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background: #1e293b;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Hero Section ===== */
+section:nth-of-type(1) {
+    background: linear-gradient(120deg, #2563eb, #38bdf8);
+    color: #fff;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+section:nth-of-type(1) h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(1) p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* ปุ่ม */
+section:nth-of-type(1) a {
+    display: inline-block;
+    background: #fff;
+    color: #2563eb;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section:nth-of-type(1) a:hover {
+    background: #e0e7ff;
+}
+
+/* ===== Highlight Section ===== */
+section:nth-of-type(2) {
+    padding: 60px 40px;
+    background: #ffffff;
+}
+
+section:nth-of-type(2) h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section:nth-of-type(2) ul {
+    max-width: 700px;
+    margin: auto;
+    list-style: none;
+}
+
+section:nth-of-type(2) li {
+    background: #f1f5f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2563eb;
+}
+
+/* ===== Courses Section ===== */
+section:nth-of-type(3) {
+    padding: 60px 40px;
+}
+
+section:nth-of-type(3) h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section:nth-of-type(3) article {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+section:nth-of-type(3) h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+section:nth-of-type(3) a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== Portfolio Section ===== */
+section:nth-of-type(4) {
+    padding: 60px 40px;
+    background: #f8fafc;
+}
+
+section:nth-of-type(4) h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section:nth-of-type(4) article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #38bdf8;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ===== Responsive เบื้องต้น ===== */
+@media (max-width: 768px) {
+
+    header {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    section:nth-of-type(1) h2 {
+        font-size: 26px;
+    }
+}
+.hero {
+    background: linear-gradient(120deg, #2563eb, #38bdf8);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content {
+    animation: fadeUp 1s ease-out;
+}
+
+.profile-img {
+    filter: grayscale(20%);
+    transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+
+
